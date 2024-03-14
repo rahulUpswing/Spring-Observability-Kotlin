@@ -13,6 +13,7 @@ import kotlinx.coroutines.slf4j.MDCContext
 import kotlinx.coroutines.withContext
 import org.slf4j.LoggerFactory
 import org.slf4j.MDC
+
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 import org.springframework.core.env.Environment
@@ -141,3 +142,4 @@ class CustomLoggerAppender(env: Environment) : DefaultServerRequestObservationCo
         return keyValues
     }
 }
+

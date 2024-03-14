@@ -44,6 +44,19 @@ dependencies {
 	implementation("io.micrometer:micrometer-tracing-bridge-otel")
 	implementation("io.opentelemetry:opentelemetry-exporter-zipkin")
 
+	implementation("io.github.openfeign:feign-micrometer:10.9")
+//	implementation ("org.springframework.cloud:spring-cloud-starter-sleuth")
+
+
+///.....Not required
+	//implementation("org.eclipse.jetty:jetty-reactive-httpclient:4.0.1")
+
+	//compileOnly("org.projectlombok:lombok:0.10.1")
+	//annotationProcessor ("org.projectlombok:lombok")
+
+
+
+
 
 }
 
