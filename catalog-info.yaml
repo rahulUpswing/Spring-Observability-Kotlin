@@ -9,5 +9,5 @@ metadata:
 
 spec:
   type: website
-  owner: john@example.com
+  owner: rahuk@upswing.one
   lifecycle: experimental
