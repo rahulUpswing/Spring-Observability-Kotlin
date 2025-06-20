@@ -1,9 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
+
 metadata:
   name: Spring-Observability-Kotlin
+  description: A demo observability website in Kotlin
   annotations:
     github.com/project-slug: rahulUpswing/Spring-Observability-Kotlin
+
 spec:
-  type: other
-  lifecycle: unknown
+  type: website
+  owner: john@example.com
+  lifecycle: experimental
